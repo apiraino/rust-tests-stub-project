@@ -1,0 +1,11 @@
+[package]
+name = "cratetests"
+version = "0.1.0"
+authors = ["apiraino <apiraino@users.noreply.github.com>"]
+edition = "2018"
+
+[lib]
+path = "lib.rs"
+
+[dependencies]
+test_prj = { path = "../../.." }
