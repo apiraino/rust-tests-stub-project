@@ -1,4 +1,4 @@
-This is a stub project to learn how to configure a project to have all integration tests in one library. The gist of it:
+This is a stub crate to learn how to configure a project to have all integration tests in one library. The gist of it:
 
 - have a nested crate inside `/tests` with all tests and their utilities
 - make this crate depend on the main project crate
